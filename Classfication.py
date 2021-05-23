@@ -8,8 +8,10 @@ from tensorflow.keras.layers import Dense , Conv1D, LSTM, MaxPooling1D, Flatten,
 def model():
     model = Sequential()
     model.add(Conv1D(256,9,input_shape=(128,12),activation='relu'))
+    model.add(MaxPooling1D(pool_size=2, strides=None, padding="valid")
     model.add(Dropout(0.75))
     model.add(Conv1D(128,15,input_shape=(128,12),activation='relu'))
+    model.add(MaxPooling1D(pool_size=2, strides=None, padding="valid")
     model.add(Dropout(0.1))
     model.add(Conv1D(64,15,input_shape=(128,12),activation='relu'))
     model.add(Dropout(0.75))
