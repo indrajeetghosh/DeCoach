@@ -10,3 +10,6 @@ a) I. Ghosh, S. R. Ramamurthy and N. Roy, "StanceScorer: A Data Driven Approach 
 
 b) Indrajeet Ghosh, Sreenivasan Ramasamy Ramamurthy, Avijoy Chakma, Emon Dey, Zahid Hasan, Nirmalya Roy, July 23, 2020, "Badminton Activity Recognition (BAR)", IEEE Dataport, doi: https://dx.doi.org/10.21227/n1e0-7c60.
 
+License:
+
+The current version of this repository is released under the GNU General Public License v3.0 unless otherwise stated. The author of the repository retains their respective rights. The published paper and published dataset is governed by a separate license and the authors retain their respective rights.
