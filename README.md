@@ -12,4 +12,4 @@ b) Indrajeet Ghosh, Sreenivasan Ramasamy Ramamurthy, Avijoy Chakma, Emon Dey, Za
 
 License:
 
-The current version of this repository is released under the GNU General Public License v3.0 unless otherwise stated. The author of the repository retains their respective rights. The published paper and published dataset is governed by a separate license and the authors retain their respective rights.
+The current version of this repository is released under the GNU General Public License v3.0 unless otherwise stated. The authors of the repository retains their respective rights. The published paper and published dataset is governed by a separate license and the authors retain their respective rights.
