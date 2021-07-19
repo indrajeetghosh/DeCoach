@@ -3,7 +3,7 @@ from tensorflow.keras.models import Sequential
 import tensorflow.math 
 from tensorflow.keras.layers import Dense , Conv1D, LSTM, MaxPooling1D, Flatten, Dropout, BatchNormalization,AveragePooling1D
 
-#Please change the input_size dimension as per your input data and also no. of neurons in last FC layer  
+#Please change the input_size dimension as per your input data and also no. of neurons. 
 
 def model():
     model = Sequential()
