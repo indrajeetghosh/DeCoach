@@ -13,17 +13,14 @@ def extract_data(persons, sensors):
         data = None
         label = None
         for sensor in sensors:
-            individual_data = np.load("PATH")"../dataset/Preprocessed Data/"+person+"_"+sensor+"_testing_X_data.npy",allow_pickle=True)
-            #print(individual_data.shape)
+            individual_data = np.load("Preprocessed Dataset/"+person+"_"+sensor+"_testing_X_data.npy")#allow_pickle=True)
             if individual_data.shape[0] < min_size:
                 min_size = individual_data.shape[0]
         
         for sensor in sensors:
-            #print("dataset/processed/"+person+"_"+sensor+"_testing_X_data.npy")
-            individual_data = np.load("PATH")#("Badminton/dataset/Preprocessed Data/"+person+"_"+sensor+"_testing_X_data.npy",allow_pickle=True)
+            individual_data = np.load("Preprocessed Dataset/"+person+"_"+sensor+"_testing_X_data.npy")#,allow_pickle=True)
             individual_data = individual_data[(individual_data.shape[0]-min_size):individual_data.shape[0],:,:]
-            #print(individual_data.shape)
-            individual_label = np.load("PATH")#("Badminton/dataset/Preprocessed Data/"+person+"_"+sensor+"_testing_Y_data.npy",allow_pickle=True)
+            individual_label = np.load("Preprocessed Dataset/"+person+"_"+sensor+"_testing_X_data.npy")#,allow_pickle=True)
             individual_label = individual_label[(individual_label.shape[0]-min_size):individual_label.shape[0]]
             if count==0:
                 data = individual_data
