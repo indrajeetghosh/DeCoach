@@ -7,11 +7,13 @@ Wearable devices have gained immense popularity among various pervasive computin
 ![Overall_flowchart](https://user-images.githubusercontent.com/41083383/167263910-0b694ac5-e0e5-4d1a-88b5-83a8de777112.png)
 
 
-**Classification and Scoring Modules**
+**Classification Module**
 
-![Classification](https://user-images.githubusercontent.com/41083383/167264731-48d8cc47-0225-4472-9804-d8d3eb00a668.png, width="425")
-![Reg](https://user-images.githubusercontent.com/41083383/167264765-1f667a5e-724c-4ff4-a3d2-13925e1d0c8b.png)
+![Classification](https://user-images.githubusercontent.com/41083383/167264731-48d8cc47-0225-4472-9804-d8d3eb00a668.png)
 
+We design a convolution neural networks (CNNs)-based classifier, for recognizing 12 different types of badminton strokes. We implemented and compared several traditional machine learning algorithms such as random forest, multilayer perceptron, decision tree and support vector machine. Furthermore, the proposed deep learning-based classifier comprises two components. First is the feature extraction component, followed by the classification component. The feature extraction component is responsible for hierarchically extracting high-level features from the raw data. We employed CNNs layers followed by max-pooling layers for the feature representation learning and followed by a softmax layer responsible for classifying the strokes. Each convolution layer 1D comprises the following operations in the sequence mentioned: convolution, rectilinear activation function, dropout and time-based decay learning rate schedule (where scaling factor = 1) shown below: 
+
+<img width="379" alt="Screen Shot 2022-05-07 at 1 19 58 PM" src="https://user-images.githubusercontent.com/41083383/167264978-a94aed93-de62-4dd3-a3c7-e37d7f032841.png">
 
 
 
