@@ -8,7 +8,10 @@ Wearable devices have gained immense popularity among various pervasive computin
 
 
 **Classification and Scoring Modules**
-![pipeline](https://user-images.githubusercontent.com/41083383/167264697-481a4f17-34e9-4e27-911c-0680d69beca7.png)
+
+![Classification](https://user-images.githubusercontent.com/41083383/167264731-48d8cc47-0225-4472-9804-d8d3eb00a668.png) "Classification") ![Reg](https://user-images.githubusercontent.com/41083383/167264765-1f667a5e-724c-4ff4-a3d2-13925e1d0c8b.png) "Scoring")
+
+
 
 
 Dataset Link/ DOI: https://dx.doi.org/10.21227/n1e0-7c60
