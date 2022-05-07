@@ -24,6 +24,9 @@ To compute the ideal stance that the participant players could play, we leverage
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="400" alt="Screen Shot 2022-05-07 at 1 33 11 PM" src="https://user-images.githubusercontent.com/41083383/167265397-c086f370-542a-4d06-84fb-1ad88e76d07b.png">
 
 
+**Error Computing Module**
+
+
 Following the computation of the ideal stance for each shot played by the participant players, we compute the error metrics. The detailed explanation of each error metric along with the mathematical equations. To obtain the error metrics for each activity, we preserve the labels and compute the error respective to the activities by implementing standard matrix operations on the resulting data from the distance-based model described in section. Our experiment extracted the closest k instances from professional players to other participants discussed in the above section. By performing distance-based, we obtained the newly predicted values. For learning the error between the newly predicted values and actual data, we calculated 13 error metrics and mathematical notations shown in the below papers. Lastly, we plotted the probability density function plots for each stroke considered in the study to measure the error during the data sessions. 
 
 Let E_t represent the error between the actual participant data X_L and newly predicted values $X_k$. Error Metrics (EM) represents the handcrafted error metrics matrix shown below, where n represent number of data instances.
