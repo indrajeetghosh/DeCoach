@@ -6,6 +6,8 @@ Wearable devices have gained immense popularity among various pervasive computin
 
 ![Overall_flowchart](https://user-images.githubusercontent.com/41083383/167263910-0b694ac5-e0e5-4d1a-88b5-83a8de777112.png)
 
+We exhibit and discuss the overall architecture of the {\it DeCoach Framework}. The above figure depicts the overview of the proposed framework, and each module of the overall framework. We categorize the proposed framework into four main modules: stroke classification, error learning for stance retrieval, error metrics computing and score prediction. Since badminton involves coordinated movements and both upper and lower limbs, it is essential to capture the movements of all the limbs. First, we collected the data from 4 and 7 participants in controlled and uncontrolled environment settings, respectively. The first component of the proposed work involves using the wearables in the upper limb to train a classifier where we aim to predict the stroke played by the player. Once the player's stroke is determined, we use the stroke information to determine the possible ways in which a player could use their lower limbs to execute the shot. We propose a distance-based error metrics module to extract such possible stances to address this problem. The second component of this proposed work addresses instance-based template matching for ideal stance learning. Finally, we compare the ideal stances learned using the professional player's data with other participants. Furthermore, we believe that the error learned here between the professional player and other players can be used for scoring. We investigated various error metrics that can be useful to determine players' performance based on the professional player's performance and can be used as a good representation of the error made by the player. We employed feature selection on the various error metrics obtained to eliminate correlated error metrics. The new feature space of uncorrelated error metrics will refer to as an error matrix. Consequently, we propose a deep learning-based regressor convolution neural network (CNNs) to predict an overall score based on their performance. Besides, we also demonstrate the robustness of the proposed methodology by introducing another professional player's data.
+
 
 **Classification Module**
 
@@ -27,6 +29,16 @@ Following the computation of the ideal stance for each shot played by the partic
 Let E_t represent the error between the actual participant data X_L and newly predicted values $X_k$. Error Metrics (EM) represents the handcrafted error metrics matrix shown below, where n represent number of data instances.
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="300" alt="Screen Shot 2022-05-07 at 1 38 39 PM" src="https://user-images.githubusercontent.com/41083383/167265709-ca65bb14-4092-484f-908a-8b16ed58e1d6.png">
+
+**Score Prediction Module**
+
+![Reg](https://user-images.githubusercontent.com/41083383/167265851-58e3ca5d-a191-4b3c-bf13-985ba7a60c97.png)
+
+We design a convolution neural network (CNNs)-based regressor shown in the above figure to predict each participant's score for the handcrafted error vector features. Further, we assigned handcrafted scores to each stroke played by the participants'. We define the handcrafted score as referring to the ideal stance. The motivation behind developing a deep regressor convolution neural network (CNNs) is that the ability to extract high-level features from input feature space hierarchically gives a cutting-edge advantage over the traditional regression algorithms. This motivated us to design an automated deep score predictor pipeline. Our deep regressor model comprises three main components. The first component is the handcrafted computed error metrics used as the input feature space, followed by the dimensionality reduction block, which helped us to extract the most uncorrelated error features with a correlation (greater than 0.90) to obtain better feature representation from the input data. The third component is the deep feature extraction layers, comprising two 1D convolution layers (responsible for hierarchically extracting high-level features from the input space), followed by a flattened layer to reduce the features' dimensionality. Furthermore, the regression component consists of one fully connected layer, followed by the regressor layer consisting of 1 neuron as the output layer.
+
+Let f_i, y, E_t, f_i(E_t) and Y represents feature selection correlation score, activities, error, score associated with each error metric and kernel size explained in below equation, respectively. 
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="357" alt="Screen Shot 2022-05-07 at 1 49 56 PM" src="https://user-images.githubusercontent.com/41083383/167265938-71d27e05-5d1e-4452-a91f-751660ac4fad.png">
 
 
 Dataset Link/ DOI: https://dx.doi.org/10.21227/n1e0-7c60
