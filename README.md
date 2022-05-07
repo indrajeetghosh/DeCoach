@@ -38,7 +38,7 @@ We design a convolution neural network (CNNs)-based regressor shown in the above
 
 Let f_i, y, E_t, f_i(E_t) and Y represents feature selection correlation score, activities, error, score associated with each error metric and kernel size explained in below equation, respectively. 
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="357" alt="Screen Shot 2022-05-07 at 1 49 56 PM" src="https://user-images.githubusercontent.com/41083383/167265938-71d27e05-5d1e-4452-a91f-751660ac4fad.png">
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="400" alt="Screen Shot 2022-05-07 at 1 49 56 PM" src="https://user-images.githubusercontent.com/41083383/167265938-71d27e05-5d1e-4452-a91f-751660ac4fad.png">
 
 
 Dataset Link/ DOI: https://dx.doi.org/10.21227/n1e0-7c60
