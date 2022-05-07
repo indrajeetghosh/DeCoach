@@ -44,17 +44,17 @@ Let f_i, y, E_t, f_i(E_t) and Y represents feature selection correlation score, 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="400" alt="Screen Shot 2022-05-07 at 1 49 56 PM" src="https://user-images.githubusercontent.com/41083383/167265938-71d27e05-5d1e-4452-a91f-751660ac4fad.png">
 
 
-Dataset DOI: https://dx.doi.org/10.21227/n1e0-7c60
+**BAR Dataset DOI**: https://dx.doi.org/10.21227/n1e0-7c60
 
 
-Please cite:
+**Papers:**
 
 a) I. Ghosh, S. R. Ramamurthy and N. Roy, "StanceScorer: A Data Driven Approach to Score Badminton Player," 2020 IEEE International Conference on Pervasive Computing and Communications Workshops (PerCom Workshops), 2020, pp. 1-6, doi: 10.1109/PerComWorkshops48775.2020.9156220.
 
-b) I. Ghosh, S. R. Ramamurthy, A Chakma and N. Roy, (2022). DeCoach: Deep Learning-based Coaching for Badminton Player Assessment. Pervasive and Mobile Computing (2022) [To be Appear].
+b) I. Ghosh, S. R. Ramamurthy, A Chakma and N. Roy, (2022). DeCoach: Deep Learning-based Coaching for Badminton Player Assessment. Pervasive and Mobile Computing (2022) **[To be Appear]**.
 
 c) Indrajeet Ghosh, Sreenivasan Ramasamy Ramamurthy, Avijoy Chakma, Emon Dey, Zahid Hasan, Nirmalya Roy, July 23, 2020, "Badminton Activity Recognition (BAR)", IEEE Dataport, doi: https://dx.doi.org/10.21227/n1e0-7c60.
 
-License:
+**License:**
 
 The current version of this repository is released under the GNU General Public License v3.0 unless otherwise stated. The authors of the repository retains their respective rights. The published paper and published dataset is governed by a separate license and the authors retain their respective rights.
