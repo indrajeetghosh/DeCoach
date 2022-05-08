@@ -33,7 +33,13 @@ Let f_i, y, E_t, f_i(E_t) and Y represents feature selection correlation score, 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="400" alt="Screen Shot 2022-05-07 at 1 49 56 PM" src="https://user-images.githubusercontent.com/41083383/167265938-71d27e05-5d1e-4452-a91f-751660ac4fad.png">
 
 
-**Instruction:-**
+**Instruction:-** To use the src codes, please following the instructions-
+
+a) To extract csv files from gzip folder, please use the Extract_gzip_to_csv_files.py file.
+
+**Preprocessing Steps:**  
+
+Please use the Pre-processing.ipynb notebook. The notebook constitutes reading the raw csv for each participant and corresponding all the limbs by using Raw_Data_Read.py file. You need to provide the correct **path** of all the extracted csv files.    
 
 
 **BAR Dataset DOI**: https://dx.doi.org/10.21227/n1e0-7c60
@@ -47,7 +53,6 @@ b) I. Ghosh, S. R. Ramamurthy, A Chakma and N. Roy, "DeCoach: Deep Learning-base
 
 c) Indrajeet Ghosh, Sreenivasan Ramasamy Ramamurthy, Avijoy Chakma, Emon Dey, Zahid Hasan, Nirmalya Roy, July 23, 2020, "Badminton Activity Recognition (BAR)", IEEE Dataport, doi: https://dx.doi.org/10.21227/n1e0-7c60.
 
-**License:**
-
+**License:-**
 The current version of this repository is released under the GNU General Public License v3.0 unless otherwise stated. The authors of the repository retains their respective rights. The published paper and published dataset is governed by a separate license and the authors retain their respective rights.
 
