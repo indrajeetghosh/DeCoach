@@ -50,6 +50,9 @@ Distance-based error learning Framework_Module.ipynb notebook constitutes KNN-ba
 **Score Prediction Module:-** 
 Scoring_Pipeline.ipynb notebook constitutes the error selection (formula shown in Score Prediction Module) and bivarate correlation analysis on predicted vs handcrafted scores. The CNNs-based regressor is defined in Scoring.py file. To visualize the predicted vs handcrafted scores, please use volin plot funstion in Visualization.ipynb notebook.   
 
+**Additional:-**
+Provided tSne plot function to visualize the learned features representation and raw feature representation 2D space.
+
 **BAR Dataset DOI**: https://dx.doi.org/10.21227/n1e0-7c60
 
 
