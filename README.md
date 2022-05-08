@@ -33,7 +33,7 @@ Let f_i, y, E_t, f_i(E_t) and Y represents feature selection correlation score, 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="400" alt="Screen Shot 2022-05-07 at 1 49 56 PM" src="https://user-images.githubusercontent.com/41083383/167265938-71d27e05-5d1e-4452-a91f-751660ac4fad.png">
 
 
-**Instruction:-** To use the src codes, please following the instructions-
+**Instruction:-** To use the src codes, please follow the steps below-
 
 a) To extract csv files from gzip folder, please use the Extract_gzip_to_csv_files.py file.
 
@@ -41,9 +41,14 @@ a) To extract csv files from gzip folder, please use the Extract_gzip_to_csv_fil
 
 Please use the Pre-processing.ipynb notebook. First you need to provide the correct **path** of all the extracted csv files. The notebook constitute normalization of the raw data (Normalize.py) and sliding windowing steps (windowfunction.py). The sliding window function perform and give three outputs - the windowed segment (size of the segment depends on the window size and overlap parameters), the acticity labels and average handcrafted scores of each segment. We would encourage you to save all the preprocessed csv files for each participant's limbs separately.
 
-**Classification Module:**  
+**Classification Module:-**  
+Shallow_Classification_Algorithms_Baseline.ipynb and Classification_Pipeline_Module.ipynb notebooks constitutes reading the raw csv for each participant and corresponding all the limbs by using Raw_Data_Read.py file. You will find various shallow classification algorithms used in this study in the Shallow_Classification_Algorithms_Baseline.ipynb notebook. The Classification_Pipeline_Module.ipynb notebook constitutes the proposed time-based decay learning rate CNNs-based classifier defined in the Classfication.py file.
 
-The notebook constitutes reading the raw csv for each participant and corresponding all the limbs by using Raw_Data_Read.py file.
+**Error Learning for Stance Retrieval Module:-**  
+Distance-based error learning Framework_Module.ipynb notebook constitutes KNN-based error estimation (DBEL.py) and handcrafted error computing (Errors.py). Lastly, you can visualize all the handcrafted errors as pdfs plot.    
+
+**Score Prediction Module:-** 
+Scoring_Pipeline.ipynb notebook constitutes the error selection (formula shown in Score Prediction Module) and bivarate correlation analysis on predicted vs handcrafted scores. The CNNs-based regressor is defined in Scoring.py file. To visualize the predicted vs handcrafted scores, please use volin plot funstion in Visualization.ipynb notebook.   
 
 **BAR Dataset DOI**: https://dx.doi.org/10.21227/n1e0-7c60
 
