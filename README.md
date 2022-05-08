@@ -39,8 +39,11 @@ a) To extract csv files from gzip folder, please use the Extract_gzip_to_csv_fil
 
 **Preprocessing Steps:**  
 
-Please use the Pre-processing.ipynb notebook. The notebook constitutes reading the raw csv for each participant and corresponding all the limbs by using Raw_Data_Read.py file. You need to provide the correct **path** of all the extracted csv files.    
+Please use the Pre-processing.ipynb notebook. First you need to provide the correct **path** of all the extracted csv files. The notebook constitute normalization of the raw data (Normalize.py) and sliding windowing steps (windowfunction.py). The sliding window function perform and give three outputs - the windowed segment (size of the segment depends on the window size and overlap parameters), the acticity labels and average handcrafted scores of each segment. We would encourage you to save all the preprocessed csv files for each participant's limbs separately.
 
+**Classification Module:**  
+
+The notebook constitutes reading the raw csv for each participant and corresponding all the limbs by using Raw_Data_Read.py file.
 
 **BAR Dataset DOI**: https://dx.doi.org/10.21227/n1e0-7c60
 
