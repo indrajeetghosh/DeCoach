@@ -33,7 +33,7 @@ Let f_i, y, E_t, f_i(E_t) and Y represents feature selection correlation score, 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="400" alt="Screen Shot 2022-05-07 at 1 49 56 PM" src="https://user-images.githubusercontent.com/41083383/167265938-71d27e05-5d1e-4452-a91f-751660ac4fad.png">
 
 
-**Instruction:-** To use the src codes, please follow the steps below-
+**Instructions:-** To use the Src codes folder, please follow the steps below-
 
 a) To extract csv files from gzip folder, please use the Extract_gzip_to_csv_files.py file.
 
