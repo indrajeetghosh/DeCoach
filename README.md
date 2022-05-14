@@ -48,7 +48,7 @@ Shallow_Classification_Algorithms_Baseline.ipynb and Classification_Pipeline_Mod
 Distance-based error learning Framework_Module.ipynb notebook constitutes KNN-based error estimation (DBEL.py) and handcrafted error computing (Errors.py). Lastly, you can visualize all the handcrafted errors as pdfs plot.    
 
 **Score Prediction Module:-** 
-Scoring_Pipeline.ipynb notebook constitutes the error selection (formula shown in Score Prediction Module) and bivarate correlation analysis on predicted vs handcrafted scores. The CNNs-based regressor is defined in Scoring.py file. To visualize the predicted vs handcrafted scores, please use volin plot funstion in Visualization.ipynb notebook.   
+Scoring_Pipeline.ipynb notebook constitutes the error selection (formula shown in Score Prediction Module) and bivarate correlation analysis on predicted vs handcrafted scores. The CNNs-based regressor is defined in Scoring.py file. To visualize the predicted vs handcrafted scores, please use violin plot function in Visualization.ipynb notebook.   
 
 **Additional:-**
 Provided t-SNE plot function to visualize the learned features representation and raw feature representation 2D space.
