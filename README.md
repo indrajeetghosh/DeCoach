@@ -22,7 +22,7 @@ Following the computation of the ideal stance for each shot played by the partic
 
 Let E<sub>t</sub> represent the error between the actual participant data X<sub>L</sub> and newly predicted values X<sub>k</sub>. Error Metrics (EM) represents the handcrafted error metrics matrix shown below, where n represent number of data instances.
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="300" alt="Screen Shot 2022-05-07 at 1 38 39 PM" src="https://user-images.githubusercontent.com/41083383/167265709-ca65bb14-4092-484f-908a-8b16ed58e1d6.png">
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="300" alt="Screen Shot 2022-05-07 at 1 38 39 PM" src="https://user-images.githubusercontent.com/41083383/167265709-ca65bb14-4092-484f-908a-8b16ed58e1d6.png">
 
 **Score Prediction Module:-**
 ![Reg](https://user-images.githubusercontent.com/41083383/167265851-58e3ca5d-a191-4b3c-bf13-985ba7a60c97.png)
