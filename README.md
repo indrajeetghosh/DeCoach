@@ -33,7 +33,16 @@ Let f<sub>i</sub>, y, E<sub>t</sub>, f<sub>i</sub>(E<sub>t</sub>) and Y represen
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img width="400" alt="Screen Shot 2022-05-07 at 1 49 56 PM" src="https://user-images.githubusercontent.com/41083383/167265938-71d27e05-5d1e-4452-a91f-751660ac4fad.png">
 
 
-**Instructions:-** To use the Src codes folder, please follow the steps below-
+**Instructions and Installation:-** 
+
+This repo was tested with Ubuntu 20.04, Python 3.8.10 and CUDA 11.2
+
+Clone this repo with:
+
+git clone git@github.com:azmfaridee/strangan-chase-2021.git
+cd strangan-chase-2021.git
+
+To use the Src codes folder, please follow the steps below-
 
 a) To extract csv files from gzip folder, please use the Extract_gzip_to_csv_files.py file.
 
@@ -66,4 +75,6 @@ c) Indrajeet Ghosh, Sreenivasan Ramasamy Ramamurthy, Avijoy Chakma, Emon Dey, Za
 
 **License:-**
 The current version of this repository is released under the GNU General Public License v3.0 unless otherwise stated. The authors of the repository retains their respective rights. The published paper and published dataset is governed by a separate license and the authors retain their respective rights.
-
+ 
+**Acknowledgements**
+This research is supported by NSF CAREER grant 1750936 and U.S. Army grant W911NF2120076
