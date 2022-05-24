@@ -41,7 +41,7 @@ Clone this repo with:
 
 **git clone git@github.com:indrajeetghosh/DeCoach.git**
 
-&emsp;&emsp; **cd DeCoach.git**
+**cd DeCoach.git**
 
 To use the Src codes folder, please follow the steps below-
 
