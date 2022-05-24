@@ -44,7 +44,7 @@ To use the Src codes folder, please follow the steps below-
 
 a) To extract csv files from gzip folder, please use the Extract_gzip_to_csv_files.py file.
 
-**Preprocessing Steps:**  
+**Preprocessing Steps:-**  
 
 Please use the Pre-processing.ipynb notebook. First you need to provide the correct **path** of all the extracted csv files. The notebook constitute normalization of the raw data (Normalize.py) and sliding windowing steps (windowfunction.py). The sliding window function perform and give three outputs - the windowed segment (size of the segment depends on the window size and overlap parameters), the acticity labels and average handcrafted scores of each segment. We would encourage you to save all the preprocessed csv files for each participant's limbs separately.
 
@@ -74,8 +74,8 @@ c) Indrajeet Ghosh, Sreenivasan Ramasamy Ramamurthy, Avijoy Chakma, Emon Dey, Za
 **License:-**
 The current version of this repository is released under the GNU General Public License v3.0 unless otherwise stated. The authors of the repository retains their respective rights. The published paper and published dataset is governed by a separate license and the authors retain their respective rights.
  
-**Acknowledgements**
+**Acknowledgements:-**
 This research is supported by NSF CAREER grant 1750936 and U.S. Army grant W911NF2120076
 
-**Contact**
+**Contact:-**
 If you have any questions, please feel free to reach out over email via indrajeetghosh@umbc.edu
