@@ -39,8 +39,9 @@ This repo was tested with Ubuntu 20.04, Python 3.8.10 and CUDA 11.2
 
 Clone this repo with:
 
-**git clone git@github.com:indrajeetghosh/DeCoach.git
-cd DeCoach.git**
+**git clone git@github.com:indrajeetghosh/DeCoach.git**
+
+&emsp;&emsp; **cd DeCoach.git**
 
 To use the Src codes folder, please follow the steps below-
 
