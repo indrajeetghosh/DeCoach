@@ -76,3 +76,6 @@ The current version of this repository is released under the GNU General Public 
  
 **Acknowledgements**
 This research is supported by NSF CAREER grant 1750936 and U.S. Army grant W911NF2120076
+
+**Contact**
+If you have any questions, please feel free to reach out over email via indrajeetghosh@umbc.edu
