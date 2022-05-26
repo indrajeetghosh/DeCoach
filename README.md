@@ -37,9 +37,6 @@ Let f<sub>i</sub>, y, E<sub>t</sub>, f<sub>i</sub>(E<sub>t</sub>) and Y represen
 
 This repo was tested with Ubuntu 20.04, Python 3.8.10 and CUDA 11.2
 
-Clone this repo with: [**git clone git@github.com:indrajeetghosh/DeCoach.git**](https://github.com/indrajeetghosh/DeCoach.git)
-
-
 To use the Src codes folder, please follow the steps below-
 
 a) To extract csv files from gzip folder, please use the Extract_gzip_to_csv_files.py file.
